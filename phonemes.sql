@@ -118,6 +118,8 @@ CREATE TABLE diphthongs (
 ------------------------------
 -- Now let's add all of IPA --
 ------------------------------
+--        CONSONANTS        --
+------------------------------
 
 -- Bilabial Consonants
 INSERT INTO consonants ('m', 'Voiced', 'Bilabial', 'Pulmonic', 'Nasal', 'None');
@@ -255,3 +257,46 @@ INSERT INTO consonants ('ʔh', 'Voiceless', 'Glottal', 'Pulmonic', 'Affricate', 
 
 --Other Consonants
 INSERT INTO consonants ('ǁ', 'Voiceless', 'Lateral', 'Click', 'Oral', 'Lateral');
+
+
+------------------------------
+--          VOWELS          --
+------------------------------
+
+--Front Vowels
+INSERT INTO vowels ('i', 'Voiced', 'Close', 'Front', False);
+INSERT INTO vowels ('y', 'Voiced', 'Close', 'Front', True);
+INSERT INTO vowels ('e', 'Voiced', 'Close-Mid', 'Front', False);
+INSERT INTO vowels ('ø', 'Voiced', 'Close-Mid', 'Front', True);
+INSERT INTO vowels ('ɛ', 'Voiced', 'Open-Mid', 'Front', False);
+INSERT INTO vowels ('œ', 'Voiced', 'Open-Mid', 'Front', True);
+INSERT INTO vowels ('æ', 'Voiced', 'Near-Open', 'Front', False);
+INSERT INTO vowels ('a', 'Voiced', 'Open', 'Front', False);
+INSERT INTO vowels ('ɶ', 'Voiced', 'Open', 'Front', True);
+
+--Near-Front Vowels
+INSERT INTO vowels ('ɪ', 'Voiced', 'Near-Close', 'Near-Front', False);
+INSERT INTO vowels ('ʏ', 'Voiced', 'Near-Close', 'Near-Front', True);
+
+--Central Vowels
+INSERT INTO vowels ('ɨ', 'Voiced', 'Close', 'Central', False);
+INSERT INTO vowels ('ʉ', 'Voiced', 'Close', 'Central', True);
+INSERT INTO vowels ('ɘ', 'Voiced', 'Close-Mid', 'Central', False);
+INSERT INTO vowels ('ɵ', 'Voiced', 'Close-Mid', 'Central', True);
+INSERT INTO vowels ('ə', 'Voiced', 'Mid', 'Central', True);
+INSERT INTO vowels ('ɜ', 'Voiced', 'Open-Mid', 'Central', False);
+INSERT INTO vowels ('ɞ', 'Voiced', 'Open-Mid', 'Central', True);
+
+--Near-Back Vowels
+INSERT INTO vowels ('ɯ̽', 'Voiced', 'Near-Close', 'Near-Back', False);
+INSERT INTO vowels ('ʊ', 'Voiced', 'Near-Close', 'Near-Back', True);
+
+--Back Vowels
+INSERT INTO vowels ('ɯ', 'Voiced', 'Close', 'Back', False);
+INSERT INTO vowels ('u', 'Voiced', 'Close', 'Back', True);
+INSERT INTO vowels ('ɤ', 'Voiced', 'Close-Mid', 'Back', False);
+INSERT INTO vowels ('o', 'Voiced', 'Close-Mid', 'Back', True);
+INSERT INTO vowels ('ʌ', 'Voiced', 'Open-Mid', 'Back', False);
+INSERT INTO vowels ('ɔ', 'Voiced', 'Open-Mid', 'Back', True);
+INSERT INTO vowels ('ɑ', 'Voiced', 'Open', 'Back', False);
+INSERT INTO vowels ('ɒ', 'Voiced', 'Open', 'Back', True);
