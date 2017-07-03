@@ -1,6 +1,6 @@
 {
 	"language": "English",
-	"dialect": "General American",
+	"dialect": "Received Pronunciation",
 	"classification": [
 		"Anglic", "Anglo-Frisian", "West Germanic", "Germanic", "Indo-European"
 	],
@@ -13,13 +13,15 @@
 	],
 	"vowels": [
 		"æ", "ɑː", "ɒ",
-		"ɛ", "ə",
+		"ɛ", "ə", "ɜː"
 		"ɪ", "iː",
 		"ɔː",
 		"ʌ", "ʊ", "uː"
 	],
 	"diphthongs": [
 		"aɪ", "eɪ", "ɔɪ",
-		"aʊ", "oʊ"
+		"aʊ", "əʊ",
+		"eə", "ɪə", "ʊə"
 	]
+	
 }
