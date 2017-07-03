@@ -1,6 +1,9 @@
 {
 	"language": "English",
 	"dialect": "General American",
+	"classification": [
+		"Anglic", "Anglo-Frisian", "West Germanic", "Germanic", "Indo-European"
+	],
 	"phonemes": [
 		"m", "n", "ŋ",
 		"p", "b", "t", "d", "g",
